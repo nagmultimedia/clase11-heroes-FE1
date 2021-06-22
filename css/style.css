@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header1 {
+	height: 30px;
+	background-color: rgba(28, 209, 176, 1);
+	padding: 6px ;
+	font-weight: bold;
+}
+
+.header2 {
+	background-color: rgba(0, 102, 159, 1);
+	height: 80px;
+	padding: 20px;
+	font-weight: bold;
+	box-shadow: 0px 10px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.personaje {
+	background-color: rgba(243, 243, 243, 1);
+	height: 560px;
+	width: 300px;
+	margin: 100px 0px 0px 30px;
+	border-radius: 15px;
+	float: left;
+}
+
+.fondo {
+	height: 193px;
+
+}
+
+.imagen-personaje {
+	width: 120px;
+	height: 118px;
+	margin: 0 auto;
+	position: relative;
+	top: -65px;
+}
+
+.imagen-personaje img {
+	border-radius: 60px;
+}
+
+
+.personaje-texto {
+	margin: 85px 15px 15px 15px;
+	text-align: center;
+}
+
+.personaje-texto p {
+	text-align: left;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.botonVerMas {
+	width: 130px;
+	height: 50px;
+	background-color: rgba(0, 102, 159, 1);
+	margin: 30px auto;
+	padding-top: 15px;	
+}
+
+.botonVerMas a {
+	color: rgba(243, 243, 243, 1);
+	text-decoration: none;
+}
+
+.footer {
+	background-color: rgba(0, 102, 159, 1);
+	height: 50px;
+	color: white;
+	padding: 15px;
+	width: 100%;
+	float: left;
+	margin-top: 150px;
+}
