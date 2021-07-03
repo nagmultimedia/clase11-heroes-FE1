@@ -89,22 +89,18 @@
 	color: white;
 	padding: 15px;
 	width: 100%;
-	float: left;
-	margin-top: 150px;
+	position: fixed;
+	bottom: 0;
 }
 
-@media (max-width:320px){
-	.personaje {
-		background-color: navy;
-		height: 560px;
-		width: 300px;
-		margin: 100px 0px 0px 30px;
-		border-radius: 55px;
-		float: left;
-	}
-  }
+.guason {
+	height: 193px;
+}
 
-
+.bmm {
+	position: relative;
+	margin-top: 10px;
+}
 
 
 /*  
@@ -121,12 +117,18 @@ tablet-landscape: min:1024px;
 
 */
 
+@media (max-width:320px){
+	.personaje {
+		background-color: navy;
+		height: 560px;
+		width: 300px;
+		margin: 100px 0px 0px 30px;
+		border-radius: 55px;
+		float: left;
+	}
+  }
 
 @media (max-width:479px){
-	.personaje-texto {
-		text-transform: uppercase;
-	}
-
 	.botonVerMas {
 		position: relative;
 		bottom: 15px;
@@ -140,13 +142,42 @@ tablet-landscape: min:1024px;
 
 	.bs {
 		position: relative;
-		bottom: 20px;
+		bottom: 0px;
 	}
 
 	.bmm {
 		position: relative;
-		top: 10px;
+		bottom: 0px;
 	}
+
+	.personaje {
+		width: 200px;
+		height: 550px;
+		border-radius: 15px;
+	}
+
+	.card-larga {
+		height: 700px;
+	}
+
+	.fondo img {
+		width: 200px;
+	}
+
+.imagen-personaje img{
+	width: 120px;
+	position:relative;
+	left: -50px;
+	}
+
+	.personaje-texto {
+		margin-top: 0;
+	}
+
+	.guason {
+		height: 130px;
+	}
+
 }
 
 @media (max-width:1023px){
