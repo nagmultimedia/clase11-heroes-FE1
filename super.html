@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/style.css" rel="stylesheet" />
+	<title>Héroes - clase 10</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="header1">
+			<span class="header1-span">20% de descuento en todos los productos!</span>
+		</div>
+		<div class="header2">
+			<div class="logo-header"><img src="img/logo-tienda.png" alt="corazon-me-gusta" class="corazon" /></div>
+			<h1>Nombre Tienda</h1>
+		</div>
+		<div class="header3">
+			<ul>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="registrarme.html">Registrarme</a></li>
+				<li><a href="ingresar.html">Ingresar</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="contenedor-body">
+
+		<div class="contenedor-super">
+
+			<h2>Añadí tu super!</h2>
+			<p>Agregá tu personaje favorito completando las opciones.</p>
+
+			<div class="contenedor-form">
+				<form action="resultado.html" method="POST">
+					<div class="cajita-super">
+						<label required for="name">Nombre</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" />
+					</div>
+					<div class="cajita-super">
+						<label>Especie</label> <br />
+						<select name="especie" id="selector-especie">
+							<option value="1">Ni idea a que se refiere</option>
+							<option value="2">Ni idea a que se refiere</option>
+							<option value="3">Ni idea a que se refiere</option>
+							<option value="4">Ni idea a que se refiere</option>
+							<option value="5">Ni idea a que se refiere</option>
+						</select> <br />
+					</div>
+
+					<div class="cajita-super">
+						<label required for="fecha">Fecha</label><br />
+						<input id="fecha" class="input" name="fecha" type="date" value="01-07-2021" />
+					</div>
+					<div class="cajita-super">
+						<label required for="avatar">Agregar Foto</label><br />
+						<input type="file" name="avatar" accept=".jpg, .png" /><br />
+					</div>
+
+					<div class="cajita-super">
+						<textarea name="poderes" minlength="10" maxlength="400" size="450"></textarea>
+					</div>
+					<div class="poderes-checks">
+						<label for="poderes">Poderes</label><br />
+
+						<input type="checkbox" name="poderes" value="volar" checked>Volar</option><br />
+						<input type="checkbox" name="poderes" value="superinteligencia">Superinteligencia</option><br />
+						<input type="checkbox" name="poderes" value="vista-rayo-laser">Vista de rayo láser</option>
+						<br />
+						<input type="checkbox" name="poderes" value="billetera-gorda">Billetera gorda</option><br />
+
+						<hr>
+						<label for="tipo-de-personaje">Tipo de personaje</label><br />
+
+						<input type="radio" name="tipo-de-personaje" value="heroe-ina" checked>Héroe / Heroina<br />
+						<input type="radio" name="tipo-de-personaje" value="villano-ana">Villano / Villana<br />
+
+					</div>
+
+					<div class="boton-anadir">
+						<button type="submit">Añadir</button>
+					</div>
+				</form>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="footer"><span>Todos los derechos reservados a FRONT END 1</span></div>
+
+</body>
+
+</html>
