@@ -139,11 +139,7 @@
 	height: 193px;
 }
 
-.bmm {
-	position: relative;
-	margin-top: 10px;
-}
-
+.bs {margin-bottom: 150px;}
 
 /*  
 
@@ -180,16 +176,6 @@ tablet-landscape: min:1024px;
 @media (max-width:767px){
 	.personaje-texto {
 		text-transform: capitalize;
-	}
-
-	.bs {
-		position: relative;
-		bottom: 0px;
-	}
-
-	.bmm {
-		position: relative;
-		bottom: 0px;
 	}
 
 	.personaje {
